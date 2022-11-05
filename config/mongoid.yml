@@ -5,7 +5,7 @@ development:
     default:
       # Mongoid can connect to a URI accepted by the driver:
       # uri: mongodb+srv://ymarket:L234rJC8xwouxT7Z@ymarket.z4nyfwg.mongodb.net/?retryWrites=true&w=majority
-      uri: <% ENV['MONOGODB_URI'] %>
+      uri: <%= ENV['MONOGODB_URI'] %>
       # Otherwise define the parameters separately.
       # This defines the name of the default database that Mongoid can connect to.
       # (required).
